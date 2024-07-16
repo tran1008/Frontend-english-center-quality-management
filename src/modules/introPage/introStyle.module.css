@@ -1,0 +1,741 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  height: 38px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.MenuText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.MenuSelect {
+  width: 44px;
+  height: 0px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.Divider {
+  width: 0px;
+  height: 38px;
+  border: 1px solid #ffffff;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.SignUp {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 8px;
+  width: 84px;
+  height: 38px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  flex: none;
+  order: 6;
+  cursor: pointer;
+  flex-grow: 0;
+  color: #ffffff;
+}
+
+.Login {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 8px;
+  width: 66px;
+  height: 38px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  flex: none;
+  order: 7;
+  flex-grow: 0;
+}
+
+.BannerText {
+  position: absolute;
+  width: 542px;
+  height: 280px;
+  left: 119px;
+  top: 288px;
+}
+
+.StyleText {
+  position: absolute;
+  width: 542px;
+  height: 144px;
+  left: 0px;
+  top: 0px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.StyleText2 {
+  position: absolute;
+  width: 542px;
+  height: 58px;
+  left: 0px;
+  top: 160px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.LearnMore {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 8px;
+  position: absolute;
+  width: 108px;
+  height: 38px;
+  left: 0px;
+  top: 242px;
+  background: rgba(255, 255, 255, 1e-6);
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.Con2 {
+  width: 100%;
+  height: 820px;
+  background: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.MainText2 {
+  position: absolute;
+  width: 100%;
+  height: 48px;
+  top: 760px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1c64f2;
+  display: flex;
+  flex-direction: column;
+}
+
+.Conn {
+  position: absolute;
+  width: 1256px;
+  height: 544px;
+  left: calc(50% - 1256px / 2);
+  top: 840px;
+}
+
+.Laptopp {
+  position: absolute;
+  width: 830px;
+  height: 506px;
+  left: 213px;
+  top: 0px;
+}
+
+.Title2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+
+  position: absolute;
+  width: 830px;
+  height: 158px;
+  left: calc(50% - 830px / 2);
+  top: 1380px;
+}
+
+.Sub {
+  width: 830px;
+  height: 90px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1c64f2;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Btn {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  width: 258px;
+  height: 48px;
+  background: rgba(255, 255, 255, 1e-6);
+  border: 1px solid #1c64f2;
+  border-radius: 4.8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.BtnIn {
+  font-style: normal;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1c64f2;
+}
+
+.Con3 {
+  width: 100%;
+  height: 740px;
+  background: #ffffff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.Title {
+  /* Heading/H1 */
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  /* identical to box height, or 48px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  color: #1c64f2;
+  display: flex;
+  flex-direction: column;
+}
+
+.RauMaSuaDua {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 100%;
+  height: 221px;
+}
+
+.RauMaMix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 830px;
+  height: 157px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.KhoaiMon {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1c64f2;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  height: 28px;
+}
+
+.TraSua {
+  width: 830px;
+  height: 120px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #1c64f2;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.Con4 {
+  width: 100%;
+  height: 280px;
+  background: #eff4fe;
+  display: flex;
+  order: 3;
+  flex-grow: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.hehe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 829px;
+  height: 126px;
+}
+
+.hihi {
+  width: 829px;
+  height: 90px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #1c64f2;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.hoho {
+  width: 829px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #1c64f2;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.Con5 {
+  width: 100%;
+  height: 564px;
+
+  /* Gray/White */
+
+  background: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+
+.Oh {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 120%;
+  /* or 38px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 40px;
+  color: #1c64f2;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 24px;
+  width: 509px;
+  height: 318px;
+
+  background: #ffffff;
+  /* Components/Toasts/Shadow */
+
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.avaN {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+
+  width: 429px;
+  height: 80px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.Wow {
+  width: 334px;
+  height: 80px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+
+  color: #1c64f2;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.VaySao {
+  width: 428px;
+  height: 72px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #202020;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.TheSao {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 8px;
+
+  height: 38px;
+
+  /* HitBox
+
+    Hitbox makes whole element selectable when press & hold Ctrl key
+    It also be used in case we want to apply drop shadow effect but still want to keep the transparent background.
+    */
+  background: rgba(255, 255, 255, 1e-6);
+  border: 1px solid #1c64f2;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.btnn {
+  height: 24px;
+
+  /* Body/Regular */
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #1c64f2;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Con6 {
+  width: 100%;
+  height: 264px;
+
+  background: #eff4fe;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Text1 {
+  width: 830px;
+  height: 136px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 120%;
+  /* or 34px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #1c64f2;
+}
+
+.Section {
+  width: 100%;
+  height: 492px;
+  flex: none;
+  order: 6;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.ABC {
+  height: 38px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 120%;
+  /* or 38px */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  /* Gray/White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.BCD {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 8px;
+
+  width: 240px;
+  height: 38px;
+  background: rgba(255, 255, 255, 1e-6);
+  /* Gray/White */
+
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.Footer {
+  width: 100%;
+  height: 248px;
+
+  background: #1c64f2;
+
+  /* Inside auto layout */
+  display: flex;
+  flex-direction: row;
+  gap: 284px;
+  flex: none;
+  order: 7;
+  flex-grow: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.aa {
+  width: 189px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.ab {
+  width: 189px;
+  height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 96px;
+  height: 24px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.BuonNgu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 356px;
+  height: 124px;
+  gap: 8px;
+}
+
+.Quaa {
+  width: 160px;
+  height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Huh {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  width: 356px;
+  height: 38px;
+  padding: 12px;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 1;
+}
+
+.SendBtn {
+  margin-top: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 8px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.SenTex {
+  height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

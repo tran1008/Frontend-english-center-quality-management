@@ -1,0 +1,69 @@
+.filterTime{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    gap: 4px;
+
+    position: absolute;
+    height: 36px;
+    left: 1080px;
+    top: 106px;
+
+    border: 1px solid #111827;
+    border-radius: 8px;
+}
+
+.dropDown{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2px 8px;
+    gap: 10px;
+
+    background: #E5E7EB;
+    border-radius: 3.2px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+}
+  
+  /* For IE10 */
+.dropDown::-ms-expand {
+    display: none;
+}
+
+.filedDateMonth{
+    height: 20px;
+
+    /* text-sm/leading-5/font-medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    color: #111827;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

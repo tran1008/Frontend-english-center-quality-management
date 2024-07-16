@@ -1,0 +1,78 @@
+:root {
+    --minWidthTh: 400px;
+}
+
+.table td, .table th {
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.table thead th:first-child,
+.table tbody th {
+    text-align: start;
+}
+
+.table thead th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background-color: #f8f9fa;
+    text-align: start;
+}
+
+.table tbody th {
+    padding: 8px 16px;
+    position: sticky;
+    left: 0;
+    min-width: var(--minWidthTh);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    z-index: 2;
+}
+
+.table thead th:nth-child(2),
+.table tbody td:nth-child(2) {
+    position: sticky;
+    left: var(--minWidthTh);
+    z-index: 2;
+}
+
+.table tbody td {
+    width: 120px;
+    vertical-align: middle;
+    min-width: 100px;
+}
+
+.table-div {
+    overflow-x: scroll;
+}
+
+.table-div::-webkit-scrollbar {
+    height: 8px;
+    background-color: #ddd;
+}
+
+.table-div::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #bbb;
+}
+
+.table-div::-webkit-scrollbar-thumb:hover {
+    border-radius: 4px;
+    background-color: #aaa;
+}
+.table-div::-webkit-scrollbar-track {
+    border-radius: 4px;
+}
+
+
+.imgDiv {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
